@@ -1,0 +1,17 @@
+- content_for :custom_style do
+  | .jumbotron { background-color: ##{@scheme[:affirmation_background]}; }
+  | .jumbotron { color: ##{@scheme[:affirmation]}; }
+
+a class="left carousel-control" href="#carousel" data-slide="prev"
+  span class="icon-prev"
+a class="right carousel-control" href="#carousel" data-slide="next"
+  span class="icon-next"
+
+div.container
+  div.jumbotron
+    div.container
+      div id="carousel" class="carousel slide"
+        div class="carousel-inner"
+          - @pages.each_with_index do |content, index|
+            div class="#{index == 0 ? 'item active' : 'item'}"
+              = to_md content
