@@ -1,6 +1,7 @@
 $ ->
   $('#carousel').carousel
     wrap: false
+    interval: false
 
   $('body').keyup (event) ->
     if event.which == 37
