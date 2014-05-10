@@ -22,8 +22,21 @@ She had been on holiday for five years now and she was pretty tired about that.'
 
 She couldn\'t wait to have a new visitor.
 
-She had wanted a new visitor very badly'
+She had wanted a new visitor very badly.',
 
+'In a few days, the little rabbit had to go home.
+
+Naomi was very sad.',
+
+'Then one day loads of animals wanted to be her pet.
+
+She only chose one though.
+
+She chose the blackest furriest cat you could ever think of.',
+
+'They had fun together and played.',
+
+'# The End'
     ]
     @scheme = {
         body_background: 'BA2D68',
